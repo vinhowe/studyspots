@@ -3,3 +3,5 @@
 /plans/
 # Completely experimental; outside the scope of the project
 selenium_test.ipynb
+.ipynb_checkpoints/
+.~*
