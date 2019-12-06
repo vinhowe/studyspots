@@ -55,7 +55,7 @@ $dayname = date('l, F j @ H:i');
                 <?php
                 $adjusted_day_of_week = $dayofweek - 1;
                 echo "<table id='hours'>\n\n";
-                $f = fopen("class_info/${adjusted_day_of_week}_classes.csv", "r");
+                $f = fopen("classroom_info/${adjusted_day_of_week}_classrooms.csv", "r");
                 while (($line = fgetcsv($f)) !== false) {
                         echo "<tr>";
                         foreach ($line as $cell) {
