@@ -4,11 +4,11 @@ date_default_timezone_set('America/Denver');
 switch (@parse_url($_SERVER['REQUEST_URI'])['path']) {
     case '/':
     case '/byu':
-        $dayofweek = date('w') - 1;
-        if ($dayofweek > 4 || $dayofweek < 0) {
-            require 'non_weekday.php';
-            break;
-        }
+        # $dayofweek = date('w') - 1;
+        # if ($dayofweek > 4 || $dayofweek < 0) {
+        #     require 'non_weekday.php';
+        #     break;
+        # }
         require 'rooms.php';
         break;
     case '/360.php':
