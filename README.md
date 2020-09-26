@@ -1,4 +1,4 @@
-## This won't be updated until BYU's free room chart stops being profoundly broken 😬
+## This won't be updated until BYU's free room chart stops being completely broken 😬
 
 <img src="/demo_images/yikes.png" width="80%"></img>
 
