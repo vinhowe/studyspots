@@ -1,7 +1,3 @@
-## I can't update this until BYU fixes their free room chart 😬
-
-<img src="/demo_images/yikes.png" width="80%"></img>
-
 # studyspots
 
 <img src="/demo_images/mainpage.png" width="80%"></img>
