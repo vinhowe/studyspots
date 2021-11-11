@@ -173,7 +173,7 @@ $dayname = date('l, F j @ H:i');
         </div>
         <main>
 
-                <h1>Open BYU classrooms winter semester 2020 for <?php echo "$dayname" ?> (MST)</h1>
+                <h1>Open BYU classrooms fall semester 2021 for <?php echo "$dayname" ?> (MST)</h1>
                 <p>Use BYU's <a href="https://y.byu.edu/class_schedule/cgi/classRoom.cgi" target="_blank">Classroom Information</a> page to view more info about individual classrooms.</p>
                 <p>Piano information may be incorrect for some classrooms. Use the 360° images to verify.</p>
                 <p class="hide-mobile">Classrooms are sorted (in order):</p>
