@@ -1,5 +1,6 @@
 <?php
 date_default_timezone_set('America/Denver');
+header("Access-Control-Allow-Origin: *");
 # [START gae_simple_front_controller]
 switch (@parse_url($_SERVER['REQUEST_URI'])['path']) {
     case '/':
@@ -13,6 +14,9 @@ switch (@parse_url($_SERVER['REQUEST_URI'])['path']) {
         break;
     case '/360.php':
         require '360.php';
+        break;
+    case '/proxy.php':
+        require 'proxy.php';
         break;
     default:
         http_response_code(404);

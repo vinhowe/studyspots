@@ -36,7 +36,7 @@
 
             pannellum.viewer('panorama', {
                 "type": "equirectangular",
-                "panorama": `https://classroom-images-prd.s3.amazonaws.com/${bldg}/${room}t.jpg`,
+                "panorama": `https://byu-classrooms-today.appspot.com/proxy.php?url=https://aim-classroom-img-prd.byu-oit-sis-prd.amazon.byu.edu/?id=${bldg}/${room}t.jpg`,
                 "autoLoad": true
             });
         } else {
